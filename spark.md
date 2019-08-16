@@ -20,10 +20,9 @@
 
 ​	Spark主要用于大数据的计算，而Hadoop主要用于大数据的存储（比如HDFS、HBASE），以及资源调度（Yarn）
 
-​	
 
-![Spark](https://raw.githubusercontent.com/adviseRed/Spark/master/图片/Spark.png))
 
+![Spark](https://raw.githubusercontent.com/adviseRed/Spark/master/%E5%9B%BE%E7%89%87/Spark.png)
 ### Saprk的特点
 
 ​	速度快：Spark最重要的特点是**基于内存**进行计算，速度是MapReduce的数倍，甚至数十倍（对Spark进行适当的调优），Spark主要是基于内存但也有部分内容基于磁盘，比如shuffle
