@@ -22,7 +22,7 @@
 
 ​	
 
-![Spark](图片\Spark.png)
+![Spark](https://raw.githubusercontent.com/adviseRed/Spark/master/%E5%9B%BE%E7%89%87/Spark.png)
 
 ### Saprk的特点
 
