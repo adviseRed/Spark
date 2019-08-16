@@ -22,7 +22,7 @@
 
 ​	
 
-![Spark](图片\Spark.png)
+![Spark](https://raw.githubusercontent.com/adviseRed/Spark/master/图片/Spark.png))
 
 ### Saprk的特点
 
@@ -137,7 +137,7 @@
 
 
 
-  ![Spark架构图](图片\Spark架构图.png)
+  ![Spark架构图](https://raw.githubusercontent.com/adviseRed/Spark/master/图片/Spark架构图.png))
 
 ## RDD操作
 
@@ -316,7 +316,7 @@
 
 
 
-![宽依赖和窄依赖](图片\宽依赖和窄依赖.png)
+![宽依赖和窄依赖](https://raw.githubusercontent.com/adviseRed/Spark/master/图片/宽依赖和窄依赖.png)
 
 ### 窄依赖
 
@@ -342,7 +342,7 @@
 
 **切割规则：从后往前，遇到宽依赖就切割stage**
 
-![Stage的划分](图片\Stage的划分.png)
+![Stage的划分](https://raw.githubusercontent.com/adviseRed/Spark/master/图片/Stage的划分.png)
 
 ## Spark的三种提交模式深度剖析
 
@@ -365,9 +365,9 @@
 
 
 
-![SparkShuffle-1](图片\SparkShuffle-1.png)
+![SparkShuffle-1](https://raw.githubusercontent.com/adviseRed/Spark/master/图片/SparkShuffle-1.png)
 
-![SparkShuffle-2](图片\SparkShuffle-2.png)
+![SparkShuffle-2](https://raw.githubusercontent.com/adviseRed/Spark/master/图片/SparkShuffle-2.png)
 
 1. 第一个特点
    * 在Spark早期版本中，那个bucket缓存是非常非常重要的，因为需要将一个ShuffleMapTask所有的数据都写入内存缓存之后，才会刷新到磁盘。但是这有一个问题，如果map side数据过多，那么很容易造成内存溢出。所以Spark在新版本中，优化了，默认那个内存缓存是100KB，当写入的数据达到刷新磁盘的阈值之后，就会将数据刷新到磁盘。
